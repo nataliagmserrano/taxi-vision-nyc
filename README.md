@@ -89,23 +89,28 @@ LSTM / Random Forest / regresión, Pandas, Numpy, Folium, Streamlit, análisis t
 ```
 📦 taxi-vision-nyc
 │
-├── 📁 data/                  # Datos crudos y procesados
-│   ├── raw/
-│   └── processed/
+├── 📁 data/                 # Datos crudos y/o procesados
+│   └── datasets/            # url fuente de datasets
 │
-├── 📁 notebooks/             # Exploración y prototipos (EDA, pruebas ML)
+├── 📁 notebooks/            # Exploración y prototipos (EDA, pruebas ML)
+│   └── taxi_vision.ipynb    # Notebook de proyecto
 │
 ├── 📁 src/
+│   ├── taxi_vision.py       # Script de proyecto completo
 │   ├── data_prep.py         # Limpieza y preparación de datos
-│   ├── train_model.py       # Entrenamiento del modelo
-│   ├── predict.py           # Script de predicción
-│   ├── utils.py             # Funciones auxiliares
-│   └── config.py            # Gestión de parámetros/paths
+│   └── train_model.py       # Entrenamiento del modelo
+│
+├── 📁 docs/                 # Documentación técnica
+│   ├── project_charter.md
+│   ├── data_dictionary.md
+│   └── model_card.md
 │
 ├── 📁 app/
 │   └── streamlit_app.py     # Aplicación web
 │
-├── requirements.txt
+├── 📁 assets/               # Archivos multimedia
+│   └── imagenes/            # Imagenes de prototipo, capturas, visualizaciones, etc.
+│
 ├── README.md
 ├── .gitignore
 └── LICENSE
@@ -114,35 +119,35 @@ LSTM / Random Forest / regresión, Pandas, Numpy, Folium, Streamlit, análisis t
 ---
 
 ## 🚀 6. Instalación y uso
-🔧 **Prerequisitos**
+### 🔧 Prerequisitos
 - Python 3.9+
 - pip
 - Git
 
-📥 **a. Clonar el repositorio**
+### 📥 a. Clonar el repositorio
 ```bash
 git clone https://github.com/tu_usuario/taxi-vision-nyc.git
 cd taxi-vision-nyc
 ```
-🧪 **b. Crear entorno virtual**
+### 🧪 b. Crear entorno virtual
 ```bash
 python -m venv venv
 source venv/Scripts/activate      # Windows
 ```
-📦 **c. Instalar dependencias**
+### 📦 c. Instalar dependencias
 ```bash
 pip install -r requirements.txt
 ```
-🔐 **d. Configurar variables de entorno**
+### 🔐 d. Configurar variables de entorno
 ```bash
 cp .env.example .env
-**Editar .env con tu API_KEY de OpenWeather u otras credenciales**
+Editar .env con tu API_KEY de OpenWeather u otras credenciales
 ```
-▶️ **e. Ejecutar el proyecto**
+### ▶️ e. Ejecutar el proyecto
 ```bash
 streamlit run app/streamlit_app.py
 ```
-🧰 **Uso básico (ejemplo)**
+### 🧰 Uso básico (ejemplo)
 ```bash
 from src.predict import predict_demand
 pred = predict_demand(latitude=40.75, longitude=-73.98, hour=15)
@@ -150,53 +155,54 @@ print(pred)
 ```
 
 ## 📊 7. Resultados (Métricas y visuales)
-Incluye:
+### Métricas del modelo RF:
+- RMSE: 6.029  
+- MAE: 3.271
+### Visualizaciones:
 - Capturas del dashboard Streamlit.
 - Mapas de calor históricos y futuros.
 
 ## 🗺️ 8. Roadmap
-**- Versión actual (v1.0)**
-       ```
-        - Modelo inicial de predicción (Random Forest / LSTM).
-        - Dashboard Streamlit funcional.
-        - Mapas de calor con Folium.
-        - Pipeline completo de datos.
-        ```
-**- Próximas versiones**
-        ```
-        - Predicción en tiempo real vía API REST.
-        - Integración con OpenWeather para mejorar la precisión.
-        - Implementación de auto-ML.
-        - Dockerización completa.
-        - App móvil.
-        - Soporte multi-idioma.
-        ```
+### Versión actual (v1.0)
+- Modelo inicial de predicción (Random Forest / LSTM).
+- Dashboard Streamlit funcional.
+- Mapas de calor con Folium.
+- Pipeline completo de datos.
+
+### Próximas versiones
+- Predicción en tiempo real vía API REST.
+- Integración con OpenWeather para mejorar la precisión.
+- Implementación de auto-ML.
+- Dockerización completa.
+- App móvil.
+- Soporte multi-idioma.
+
 
 ## 🤝 9. Contribución
 
 ¡Las contribuciones son bienvenidas!
 
 Para contribuir:
-**a. Hacer fork del proyecto**
-**b. Crear una rama:**
+### a. Hacer fork del proyecto
+### b. Crear una rama:
         ```
         git checkout -b feature/NuevaCaracteristica
         ```
-**c. Hacer commit:**
+### c. Hacer commit:
         ```
         git commit -m "Add: nueva característica"
         ```
-**d. Subir cambios:**
+### d. Subir cambios:
         ```
         git push origin feature/NuevaCaracteristica
         ```
-**e. Abrir un Pull Request**
+### e. Abrir un Pull Request
 
 
 ## 👥 10. Equipo y contacto
-**Desarrollado por:** Natalia Martínez
+- **Desarrollado por:** Natalia Martínez
 
-**📧 Contacto:** email@gmail.com
+- **📧 Contacto:** email@gmail.com
 
-**📄 Licencia:** Este proyecto está bajo la licencia MIT.
+- **📄 Licencia:** Este proyecto está bajo la licencia MIT.
 

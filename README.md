@@ -120,27 +120,34 @@ LSTM / Random Forest / regresión, Pandas, Numpy, Folium, Streamlit, análisis t
 - Git
 
 📥 **a. Clonar el repositorio**
+```bash
 git clone https://github.com/tu_usuario/taxi-vision-nyc.git
 cd taxi-vision-nyc
-
+```
 🧪 **b. Crear entorno virtual**
+```bash
 python -m venv venv
 source venv/Scripts/activate      # Windows
-
+```
 📦 **c. Instalar dependencias**
+```bash
 pip install -r requirements.txt
-
+```
 🔐 **d. Configurar variables de entorno**
+```bash
 cp .env.example .env
 **Editar .env con tu API_KEY de OpenWeather u otras credenciales**
-
+```
 ▶️ **e. Ejecutar el proyecto**
+```bash
 streamlit run app/streamlit_app.py
-
+```
 🧰 **Uso básico (ejemplo)**
+```bash
 from src.predict import predict_demand
 pred = predict_demand(latitude=40.75, longitude=-73.98, hour=15)
 print(pred)
+```
 
 ## 📊 7. Resultados (Métricas y visuales)
 Incluye:
@@ -149,17 +156,21 @@ Incluye:
 
 ## 🗺️ 8. Roadmap
 **- Versión actual (v1.0)**
+       ```
         - Modelo inicial de predicción (Random Forest / LSTM).
         - Dashboard Streamlit funcional.
         - Mapas de calor con Folium.
         - Pipeline completo de datos.
+        ```
 **- Próximas versiones**
+        ```
         - Predicción en tiempo real vía API REST.
         - Integración con OpenWeather para mejorar la precisión.
         - Implementación de auto-ML.
         - Dockerización completa.
         - App móvil.
         - Soporte multi-idioma.
+        ```
 
 ## 🤝 9. Contribución
 
@@ -168,19 +179,24 @@ Incluye:
 Para contribuir:
 **a. Hacer fork del proyecto**
 **b. Crear una rama:**
+        ```
         git checkout -b feature/NuevaCaracteristica
+        ```
 **c. Hacer commit:**
+        ```
         git commit -m "Add: nueva característica"
+        ```
 **d. Subir cambios:**
+        ```
         git push origin feature/NuevaCaracteristica
+        ```
 **e. Abrir un Pull Request**
 
 
 ## 👥 10. Equipo y contacto
 **Desarrollado por:** Natalia Martínez
 
-**📧 Contacto:** tu_email@example.com
+**📧 Contacto:** email@gmail.com
 
-**📄 Licencia**
-Este proyecto está bajo la licencia MIT.
+**📄 Licencia:** Este proyecto está bajo la licencia MIT.
 

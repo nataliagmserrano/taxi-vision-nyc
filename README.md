@@ -155,13 +155,18 @@ pred = predict_demand(latitude=40.75, longitude=-73.98, hour=15)
 print(pred)
 ```
 
+---
+
 ## 📊 7. Resultados (Métricas y visuales)
 ### Métricas del modelo RF:
 - RMSE: 6.029  
 - MAE: 3.271
 ### Visualizaciones:
+![Dashboard](assets/imagenes/tv_1.png)
+*Dashboard principal con mapa de calor*
 
-- Mapas de calor históricos y futuros.
+
+---
 
 ## 🗺️ 8. Roadmap
 ### Versión actual (v1.0)
@@ -178,6 +183,7 @@ print(pred)
 - App móvil.
 - Soporte multi-idioma.
 
+---
 
 ## 🤝 9. Contribución
 
@@ -199,6 +205,7 @@ Para contribuir:
         ```
 ### e. Abrir un Pull Request
 
+---
 
 ## 👥 10. Equipo y contacto
 - **Desarrollado por:** Natalia Martínez

@@ -111,6 +111,7 @@ LSTM / Random Forest / regresión, Pandas, Numpy, Folium, Streamlit, análisis t
 ├── 📁 assets/               # Archivos multimedia
 │   └── imagenes/            # Imagenes de prototipo, capturas, visualizaciones, etc.
 │
+├── requirements.txt
 ├── README.md
 ├── .gitignore
 └── LICENSE
@@ -159,7 +160,7 @@ print(pred)
 - RMSE: 6.029  
 - MAE: 3.271
 ### Visualizaciones:
-- Capturas del dashboard Streamlit.
+
 - Mapas de calor históricos y futuros.
 
 ## 🗺️ 8. Roadmap

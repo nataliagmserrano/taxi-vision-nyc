@@ -12,7 +12,7 @@ Un proyecto que une datos reales, UX y analítica avanzada para mejorar la efici
 
 ---
 
-## ❗ 1. Problema que resuelve (El *Por qué*)
+## ❗ 1. Problema que resuelve
 
 La ciudad de Nueva York enfrenta constantes fluctuaciones en la demanda de taxis, generando:
 - 🚕 **Disponibilidad irregular**: taxis saturados en horas pico y zonas sin cobertura.  
@@ -25,7 +25,7 @@ Resolverlo permite **optimizar recursos, mejorar la experiencia de viaje y reduc
 
 ---
 
-## 💡 2. Solución propuesta (El *Qué*)
+## 💡 2. Solución propuesta
 
 TaxiVision es una **aplicación interactiva con modelos Predictivos** que:
 - Estima la **demanda futura de taxis por zona y hora** usando Machine Learning.  
@@ -147,17 +147,17 @@ Incluye:
 
 ## 🗺️ 8. Roadmap
 **- Versión actual (v1.0)**
-        Modelo inicial de predicción (Random Forest / LSTM).
-        Dashboard Streamlit funcional.
-        Mapas de calor con Folium.
-        Pipeline completo de datos.
+        - Modelo inicial de predicción (Random Forest / LSTM).
+        - Dashboard Streamlit funcional.
+        - Mapas de calor con Folium.
+        - Pipeline completo de datos.
 **- Próximas versiones**
-        Predicción en tiempo real vía API REST.
-        Integración con OpenWeather para mejorar la precisión.
-        Implementación de auto-ML.
-        Dockerización completa.
-        App móvil.
-        Soporte multi-idioma.
+        - Predicción en tiempo real vía API REST.
+        - Integración con OpenWeather para mejorar la precisión.
+        - Implementación de auto-ML.
+        - Dockerización completa.
+        - App móvil.
+        - Soporte multi-idioma.
 
 ## 🤝 9. Contribución
 

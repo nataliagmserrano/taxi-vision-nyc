@@ -90,7 +90,9 @@ LSTM / Random Forest / regresión, Pandas, Numpy, Folium, Streamlit, análisis t
 📦 taxi-vision-nyc
 │
 ├── 📁 data/                 # Datos crudos y/o procesados
-│   └── datasets/            # url fuente de datasets
+│   ├── datasets.txt         # Url fuente de datasets de taxis nyc
+│   ├── taxi_zone_lookup.csv # Dataset público con nombre de zonas
+│   └── temporales/          # Ejemplos de documentos obtenidos del entorno de ejecución en Colab
 │
 ├── 📁 notebooks/            # Exploración y prototipos (EDA, pruebas ML)
 │   └── taxi_vision.ipynb    # Notebook de proyecto
@@ -106,7 +108,7 @@ LSTM / Random Forest / regresión, Pandas, Numpy, Folium, Streamlit, análisis t
 │   └── model_card.md
 │
 ├── 📁 app/
-│   └── streamlit_app.py     # Aplicación web
+│   └── app.py               # Aplicación web. Código del dashboard web con mapas, visualizaciones y predicciones (con streamlit)
 │
 ├── 📁 assets/               # Archivos multimedia
 │   └── imagenes/            # Imagenes de prototipo, capturas, visualizaciones, etc.

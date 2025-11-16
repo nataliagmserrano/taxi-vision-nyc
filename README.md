@@ -162,9 +162,16 @@ print(pred)
 - RMSE: 6.029  
 - MAE: 3.271
 ### Visualizaciones:
+- *Dashboard principal con mapa de calor*
 ![Dashboard](assets/imagenes/tv_1.png)
-*Dashboard principal con mapa de calor*
+![Dashboard](assets/imagenes/tv_2.png)
 
+- *Prediccion de demanda por hora*
+![Dashboard](assets/imagenes/tv_3.png)
+![Dashboard](assets/imagenes/tv_4.png)
+
+- *Otras opciones: Comparacion de demanda histórica y Clima histórico*
+![Dashboard](assets/imagenes/tv_5.png)
 
 ---
 

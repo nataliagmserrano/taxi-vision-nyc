@@ -86,6 +86,7 @@ LSTM / Random Forest / regresión, Pandas, Numpy, Folium, Streamlit, análisis t
 
 ## 📂 5. Estructura del proyecto
 
+```
 📦 taxi-vision-nyc
 │
 ├── 📁 data/                  # Datos crudos y procesados
